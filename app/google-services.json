@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "793269425965",
+    "firebase_url": "https://sumaq-wasi-458e7-default-rtdb.firebaseio.com",
+    "project_id": "sumaq-wasi-458e7",
+    "storage_bucket": "sumaq-wasi-458e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793269425965:android:630976856893b5c15265a4",
+        "android_client_info": {
+          "package_name": "com.example.sumaqwasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi-GIjHi7_22ata6nDcXFlY7ObTwMJp0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
