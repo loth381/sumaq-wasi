@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">sumaq wasi</string>
+    <string name="hero_image_1">Descripción de la imagen 1</string>
+    <string name="hero_image_2">Descripción de la imagen 2</string>
+    <string name="hero_image_3">Descripción de la imagen 3</string>
+    <string name="comida">Ayacucho,una región rica en historia y cultura ubicada en la sierra sur-central de Perú, también es famosa por su exquisita gastronomía. La cocina ayacuchana es un reflejo de su herencia andina, combinada con influencias coloniales y una profunda conexión con los ingredientes locales. Aquí te presento un resumen de la comida típica de Ayacucho, incluyendo algunos de los platos más representativos de la región.</string>
 </resources>
