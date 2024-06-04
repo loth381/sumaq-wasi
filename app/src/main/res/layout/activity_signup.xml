@@ -5,10 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-
-
+    android:background="@drawable/fondo"
     tools:context=".SignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Registrarse"
+        android:textSize="50dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:layout_width="0dp"
@@ -21,8 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="450dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toTopOf="@+id/signupPassword"/>
@@ -45,19 +53,101 @@
         android:layout_marginBottom="16dp"
         />
 
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounded_button_facebook"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/facebook"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="320dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounded_button_facebook"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/google"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginStart="270dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounded_button_facebook"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icono"
+            />
+    </LinearLayout>
 
     <Button
         android:id="@+id/signupButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="250dp"
         android:text="Registrarse"
         app:layout_constraintBottom_toTopOf="@id/loginText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signupPassword" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="270dp"
+        android:text="o inicia sesión con"
+        android:textColor="@color/fondo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signupButton" />
 
     <TextView
         android:id="@+id/loginText"
@@ -65,9 +155,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="¿Ya registrado? Acceso"
-        android:textColor="@color/pink"
-        android:textSize="18sp"
+        android:text="Iniciar session"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
