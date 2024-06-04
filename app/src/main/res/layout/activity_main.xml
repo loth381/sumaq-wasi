@@ -52,8 +52,7 @@
             android:id="@+id/textView5"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Lugares"
-
+            android:text="Comida"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -82,13 +81,14 @@
             android:id="@+id/textView6"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Lugares"
+            android:text="Cultura"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25dp" />
 
 
         <ImageView
+            android:id="@+id/cultura"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="10dp"
@@ -142,8 +142,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lugares"
-        android:layout_marginTop="455dp"
+        android:text="Noticias"
+        android:layout_marginTop="445dp"
         android:layout_marginLeft="20dp"
         android:textAlignment="center"
         android:textColor="@color/black"

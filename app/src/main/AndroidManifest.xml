@@ -17,6 +17,9 @@
         android:theme="@style/Theme.SumaqWasi"
         tools:targetApi="31">
         <activity
+            android:name=".CulturaActivity"
+            android:exported="false" />
+        <activity
             android:name=".ComidaActivity"
             android:exported="false" />
         <activity
